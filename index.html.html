@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Message</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .heart {
+            width: 100px;
+            height: 100px;
+            background-image: url('heart.png'); /* Replace 'heart.png' with your heart image file */
+            background-size: cover;
+        }
+        .options {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff4d4d;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart"></div>
+    <div class="options">
+        <button onclick="showThankYou()">Yes</button>
+        <button onclick="showPlease()">No</button>
+    </div>
+    <script>
+        function showThankYou() {
+            alert("THANK YOU!");
+        }
+        function showPlease() {
+            alert("PLEASE");
+        }
+    </script>
+    <p class="message">
+        I love you BABY. Tum meri wife ho, meri jaan ho, meri hissa ho, meri life ho, meri lifeline ho, meri zindigi ho, meri sathi ho, meri queen ho, meri Humsafar ho, meri himmat ho, meri duniya ho, meri sab kch ho. Kya mai tumhe kl call kr skta hu? Please bolo.
+    </p>
+</body>
+</html>
